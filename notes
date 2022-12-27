@@ -1,0 +1,43 @@
+Features in Java8
+-------------------
+1. Interface Enhancement
+2. Functional Interface
+3. Lambda Expression
+4. Stream API
+5. Date & Time API
+
+
+1 => Interface Enhancement
+-----------------------------
+a. Introduction of Default Methods => Supports backWard compatibility
+    1. default method is available inside the implementing class
+    2. there can be more than 1 default method in interface
+    3. default method helps in bringing backward compatibility
+
+b. Introduction of Static Methods =>
+    1. static method is not available inside the implementing class
+    2. there can be more than 1 static method in interface
+    3. static method helps in bringing backward compatibility
+    4. we can't override static method
+    5. Java 8 onwards main method can be a part of  interface
+
+c. Functional Interface
+    1. An interface having one and only one abstract method is a functional
+    2. Runnable interface had only 1 abstract method called run() => ex. functional interface
+    3. Comparable interface had only 1 abstract method called compareTo() => ex. functional interface
+    4. Functional Interface can have any number of default and static method but only 1 abstract method
+       that's why it is also called as SAM interface
+
+d. Lambda Expression
+     - OOP -> Programming paradigm should adhere to Classes , Objects, Encapsulation , Inheritance, Polymorphism, Abstraction
+     - Functional Programing -> Here implementation of same functionality can be done clear and concise manner
+     => Code will less, implementation will compact
+
+e. predicates => lmosmayat
+    - Are predefined functional interfaces => predefined means mo7adad mosba9an
+    - Return Boolean value
+    - 29 min in video
+
+f. Double Colon Operator => can be used as an alternative to Lambda expression
+    - method reference  -> instance and static method
+    - constructor reference
