@@ -36,8 +36,13 @@ d. Lambda Expression
 e. predicates => lmosmayat
     - Are predefined functional interfaces => predefined means mo7adad mosba9an
     - Return Boolean value
-    - 29 min in video
 
 f. Double Colon Operator => can be used as an alternative to Lambda expression
     - method reference  -> instance and static method
     - constructor reference
+
+g. Streams  - java.util.stream
+    - Helps to operate on collection object
+    - Filter takes a predicate as an argument so basically you are validating your input/collection against a condition,
+    - whereas a Map allows you to define or use a existing function on the stream eg you can apply String.toUpperCase(...)
+    - 28,44 min
