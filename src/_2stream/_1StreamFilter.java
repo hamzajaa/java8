@@ -5,7 +5,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.List;
 
-public class StreamFilter {
+public class _1StreamFilter {
     public static void main(String[] args) {
 
         ArrayList<Integer> numbers = new ArrayList<>();

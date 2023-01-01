@@ -3,7 +3,7 @@ package _2stream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StreamMap {
+public class _2StreamMap {
     public static void main(String[] args) {
 
         ArrayList<Integer> numbers = new ArrayList<>();

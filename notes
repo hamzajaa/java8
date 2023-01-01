@@ -45,4 +45,6 @@ g. Streams  - java.util.stream
     - Helps to operate on collection object
     - Filter takes a predicate as an argument so basically you are validating your input/collection against a condition,
     - whereas a Map allows you to define or use a existing function on the stream eg you can apply String.toUpperCase(...)
-    - 28,44 min
+    - distinct function removed duplicate and returns unique list
+    - skip functions skips the specified number of elements from starting
+    - peek function helps in debugging to see what is happening after particular operation on the stream
