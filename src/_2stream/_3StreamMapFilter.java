@@ -29,6 +29,6 @@ public class _3StreamMapFilter {
 
         // how many fruits exist that have length greater than 5
         long numOfFruitsWithLengthGrTh5 = fruits.stream().filter(f -> f.length() > 5).count();
-        System.out.println("numOfFruitsWithLengthGrTh5 = " + numOfFruitsWithLengthGrTh5);
+        System.out.println("numOfFruitsWithLengthGrTh5 = " + numOfFruitsWithLengthGrTh5); // 3
     }
 }
