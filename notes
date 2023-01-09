@@ -48,3 +48,6 @@ g. Streams  - java.util.stream
     - distinct function removed duplicate and returns unique list
     - skip functions skips the specified number of elements from starting
     - peek function helps in debugging to see what is happening after particular operation on the stream
+
+    - Sequential stream - It follows order and runs items in stream in a sequence, it is slow in processing
+    - Parallel stream - Runs in multiple threads, do not follow order, it's faster in processing

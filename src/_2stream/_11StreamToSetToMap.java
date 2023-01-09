@@ -1,12 +1,11 @@
 package _2stream;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class _11_1StreamToSet {
+public class _11StreamToSetToMap {
     public static void main(String[] args) {
 
         Set<Integer> numSet = new HashSet<>();
