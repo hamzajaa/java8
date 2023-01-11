@@ -51,3 +51,7 @@ g. Streams  - java.util.stream
 
     - Sequential stream - It follows order and runs items in stream in a sequence, it is slow in processing
     - Parallel stream - Runs in multiple threads, do not follow order, it's faster in processing
+
+h. Java-8: Date Time Api
+    - In Java7 we had Date, Calendar, Timestamp, they were not efficient
+    - In Java8 a new Date Time API was introduce which is also called as Joda Time API in a new package called java.time
